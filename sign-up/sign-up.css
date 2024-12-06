@@ -1,0 +1,149 @@
+/* General Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #F5F5F5;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-section {
+  flex: 1;
+  background-color: #E7F2EB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.logo {
+  width: 150px;
+}
+
+.right-section {
+  flex: 1;
+  background-color: #FFF;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+h2 {
+  color: #6E4A32;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+h2 span {
+  color: #5AAE60;
+}
+
+h1 {
+  color: #34A853;
+  font-size: 2rem;
+  line-height: 1.2;
+  margin: 10px 0 30px;
+}
+
+form {
+  width: 100%;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid #8E7157;
+  font-size: 1rem;
+  color: #8E7157;
+  outline: none;
+  background-color: #F9F5F2;
+}
+
+.toggle-password {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.forgot-password {
+  display: block;
+  margin-bottom: 30px;
+  color: #34A853;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.sign-up-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #8E7157;
+  border: none;
+  color: #FFF;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.separator {
+  text-align: center;
+  margin: 20px 0;
+  width: 100%;
+  position: relative;
+}
+
+.separator span {
+  background-color: #FFF;
+  padding: 0 10px;
+  position: relative;
+  z-index: 1;
+  color: #8E7157;
+}
+
+.separator:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: #8E7157;
+  z-index: 0;
+}
+
+.google-login {
+  width: 100%;
+  padding: 10px;
+  background-color: #FFF;
+  border: 2px solid #8E7157;
+  color: #8E7157;
+  border-radius: 20px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.google-login img {
+  width: 20px;
+  margin-right: 10px;
+}
