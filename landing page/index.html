@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YieldWise Landing Page</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="ywlanding.png" alt="YieldWise Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Overview</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Communities</a></li>
+            </ul>
+        </nav>
+        <div class="auth-search">
+            <a href="sign-in\sign-in.html"><button class="sign-in">Sign In →</button></a>
+            <button class="search">
+                <img src="search-icon.png" alt="Search">
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-text">
+                <h1>Empowering Farmers with Data-Driven Insights</h1>
+                <p>Boost your farm's efficiency with advanced technology, tailored solutions, and insights to optimize productivity.</p>
+                <button class="cta-button">Learn More</button>
+            </div>
+            <div class="hero-image">
+                <img src="smart-farm.png" alt="Smart Farming">
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us">
+        <div class="why-container">
+            <div class="why-card">
+                <img src="forecast.png" alt="Forecast Viable Regions">
+                <h3>Forecast Viable Regions</h3>
+                <p>Know where and when to sell for maximum revenue.</p>
+            </div>
+            <div class="why-card">
+                <img src="planing.png" alt="Seasonal Planning">
+                <h3>Seasonal Planning</h3>
+                <p>Plan for every season with tailored strategies.</p>
+            </div>
+            <div class="why-card">
+                <img src="support.png" alt="Personalized Support">
+                <h3>Personalized Support</h3>
+                <p>Your farming success is unique with tailored insights.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <img src="register.png" alt="Step 1">
+                    <h3>Create Your Profile</h3>
+                    <p>Sign up and provide details about your farm, crops, and objectives.</p>
+                </div>
+                <div class="step">
+                    <img src="realtime.png" alt="Step 2">
+                    <h3>Get Real-Time Forecast</h3>
+                    <p>Access forecasts, seasonal strategies, and insights tailored to your farm.</p>
+                </div>
+                <div class="step">
+                    <img src="boostsales.png" alt="Step 3">
+                    <h3>Boost Your Sales</h3>
+                    <p>Improve your market strategies and maximize your progress through data-driven tools.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboard Overview -->
+    <section class="dashboard">
+        <div class="dashboard-container">
+            <ul class="features-list">
+                <li><strong>✓ Current Weather and Sales Trend</strong><p>Stay ahead of the season.</p></li>
+                <li><strong>✓ Seasonal Crop Recommendations</strong><p>Know what to plant and when.</p></li>
+                <li><strong>✓ Regional Market Insights</strong><p>Sell smarter, earn more.</p></li>
+                <li><strong>✓ Risk Alerts</strong><p>Be prepared for storms and other challenges.</p></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="testimonial">
+            <img src="53948.jpg" alt="Chinedu E, Maize Farmer">
+            <h3>Chinedu E., Maize Farmer</h3>
+            <p><span>📍 Cape Town, South Africa</span></p>
+            <p>The website has transformed the way I run my farm. I’ve seen a 40% increase in sales during the last rainy season.</p>
+        </div>
+        <div class="testimonial">
+            <img src="86909.jpg" alt="Grace T, Cassava Farmer">
+            <h3>Grace T., Cassava Farmer</h3>
+            <p><span>📍 Aswan, Egypt</span></p>
+            <p>Thanks to this platform, I know exactly where to sell my produce for the best price. It’s a game-changer.</p>
+        </div>
+    </section>
+
+    <!-- Call To Action -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Transform Your Farm?</h2>
+            <p>Join thousands of farmers optimizing their productivity and earnings today.</p>
+            <a href="sign-up/sign-up.html"><button class="cta-button">Sign Up Now</button></a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-info">
+                <h2>Need Help? Get in Touch</h2>
+                <div class="contact">
+                    <p><strong>Phone:</strong> +234 800 123 4567</p>
+                    <p><strong>Email:</strong> support@yieldwise.com</p>
+                    <p><strong>Address:</strong> Enugu, Nigeria</p>
+                </div>
+            </div>
+            <div class="newsletter">
+                <h2>Follow Our Newsletter</h2>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your work email" required>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; YieldWise.co All rights reserved</p>
+            <div class="links">
+                <a href="#">Terms</a>
+                <a href="#">Privacy</a>
+                <a href="#">Security</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scroll-to-top" class="scroll-to-top">↑</button>
+
+    <!-- JavaScript for Scroll to Top 
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const scrollToTopButton = document.getElementById("scroll-to-top");
+
+            window.addEventListener("scroll", () => {
+                if (window.scrollY > 300) {
+                    scrollToTopButton.classList.add("show");
+                } else {
+                    scrollToTopButton.classList.remove("show");
+                }
+            });
+
+            scrollToTopButton.addEventListener("click", () => {
+                window.scrollTo({
+                    top: 0,
+                    behavior: "smooth",
+                });
+            });
+        });
+    </script>-->
+    <script src="index.js"></script>
+</body>
+</html>
